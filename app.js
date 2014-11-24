@@ -46,7 +46,7 @@ if (app.get('env') === 'development') {
 }
 
 // production error handler
-// no stacktraces leaked to user
+// no stacktraces leaked to userrrr
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
@@ -56,7 +56,7 @@ app.use(function(err, req, res, next) {
 });
 
 
-/* Hacemos que la app escuche en el puerto 3000 para poder testear localmente*/
+/* Hacemos que la app escuche en el puerto 3000 para poder testear locallyyyy*/
 app.listen(3000, function () {
 console.log("express has started on port 3000");
 });
